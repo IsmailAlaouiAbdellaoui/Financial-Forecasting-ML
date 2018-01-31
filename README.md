@@ -10,6 +10,7 @@ This project tries to answer to 2 questions:
 This project used Support Vector Machines ( SVMs ) and Neural Networks.
 
 **Python 2.7** is needed to run these files
+**Disclaimer** : This code is very messy since it is not finished yet
 
 *Methodology:*
 * Gather daily EURUSD and USDJPY data from Metatrader in the form of csv files
