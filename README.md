@@ -49,11 +49,11 @@ This project used Support Vector Machines ( SVMs ) and Neural Networks.
 
 For the **Classification** :
 * Simple SVM gave an accuracy of 51.72%
-* A 24*8*2*8*1 Neural Network gave an accuracy of 52.37%
+* A 24-8-2-8-1 Neural Network gave an accuracy of 52.37%
 
 For the **Regression** :
 * Simple SVM gave an MSE of 4.99e-05
-* A 24*12*1 Neural Network gave an MSE of 0.7357
+* A 24-12-1 Neural Network gave an MSE of 0.7357
 
 ## Things to improve the models :
 * Try other algos ( GaussianBayes, Random Trees, K Nearest Neighbors ... )
