@@ -14,10 +14,14 @@ This project used Support Vector Machines ( SVMs ) and Neural Networks.
 *Methodology:*
 * Gather daily EURUSD and USDJPY data from Metatrader in the form of csv files
 * Clean the data (we only need Open, High, Close, Low data )
-* Create input and output sets for classification and regression
+* Create input and output sets for classification and regression (6 days were used to predict the 7th one)
 * Create the mapping between the input/output sets for training and testing
 * Train the models and test them
 * Evaluate the models ( Accuracy for classification and Mean Square Error for regression )
+
+*Sliding window :* 
+
+![Sliding](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/sliding-window.JPG)
 
 ## Sample outputs
 
@@ -44,16 +48,17 @@ This project used Support Vector Machines ( SVMs ) and Neural Networks.
 ## Results
 
 For the **classification** :
-* Simple SVM gave 51.72% of accuracy
-* A 24*8*2*8*1 Neural Network gave of accuracy 52.37%
+* Simple SVM gave an accuracy of 51.72%
+* A 24*8*2*8*1 Neural Network gave an accuracy of 52.37%
 
 For the **Regression** :
 * Simple SVM gave an MSE of 4.99e-05
 * A 24*12*1 Neural Network gave an MSE of 0.7357
 
 ## Things to improve the models :
-* Do feature selection using Chi Square , or RSE ( and compare them )
+* Try other algos ( GaussianBayes, Random Trees, K Nearest Neighbors ... )
+* Do feature selection using Chi Square , or RFE ( and compare them )
 * Do 5 fold cross-validation using TimeSeriesSplit ( from sklearn )
-* Do GridSearchCV to find the best parameters ( or use RandomSearchCV if too exhaustive )
+* Do GridSearchCV to find the best parameters ( or use RandomizedSearchCV if too exhaustive )
 * Explore how the structure of the NN affects accuracy/MSE ( in terms of depth and length of layers )
 * Use Recurrent NNs
