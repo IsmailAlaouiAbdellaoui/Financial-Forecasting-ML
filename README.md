@@ -22,8 +22,10 @@ This project used Support Vector Machines ( SVMs ) and Neural Networks.
 ## Sample outputs
 
 Output of FF_NN_24_12_1.py :
-![NN_Regression](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/MSE-NN.JPG)
-![NN_Regression2](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/NN%20Regression-Actual-VS-Prediction(USDJPY).JPG)
+![NN_Regression]
+(https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/MSE-NN.JPG)
+![NN_Regression2]
+(https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/NN%20Regression-Actual-VS-Prediction(USDJPY).JPG)
 
 Output of NN_classification.py :
 ![NN_Classification](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/Accuracy-NN.JPG)
