@@ -30,14 +30,16 @@ This project used Support Vector Machines ( SVMs ) and Neural Networks.
 
 ![NN_Classification](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/Accuracy-NN.JPG)
 
-*Output of display_daily_eurusd_SVC.py :*
-
-![SVM_Classification](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/Accuracy-SVM.JPG)
-
 *Output of display_daily_eurusd_SVR.py :*
 
 ![SVM_Regression](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/MSE-SVM.JPG)
 ![SVM_Regression2](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/SVM%20Regression-Actual-VS-Prediction(EURUSD).JPG)
+
+*Output of display_daily_eurusd_SVC.py :*
+
+![SVM_Classification](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/Accuracy-SVM.JPG)
+
+
 
 ## Results
 
