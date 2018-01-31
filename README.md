@@ -19,7 +19,7 @@ This project used Support Vector Machines ( SVMs ) and Neural Networks.
 * Train the models and test them
 * Evaluate the models ( Accuracy for classification and Mean Square Error for regression )
 
-*Sliding window :* 
+*Sliding window (6 days to predict the 7th):* 
 
 ![Sliding](https://github.com/IsmailAlaouiAbdellaoui/Financial-Forecasting-ML/blob/master/sliding-window.JPG)
 
@@ -47,7 +47,7 @@ This project used Support Vector Machines ( SVMs ) and Neural Networks.
 
 ## Results
 
-For the **classification** :
+For the **Classification** :
 * Simple SVM gave an accuracy of 51.72%
 * A 24*8*2*8*1 Neural Network gave an accuracy of 52.37%
 
