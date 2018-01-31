@@ -3,9 +3,9 @@
 
 This project tries to answer to 2 questions:
 
-1.Can we predict whether a candle will be up or down ? ( Classification )
+1. Can we predict whether a candle will be up or down ? ( Classification )
 
-2.To which extent can we predict the exact daily closing price of a currency ? ( Regression )
+2. To which extent can we predict the exact daily closing price of a currency ? ( Regression )
 
 This project used Support Vector Machines ( SVMs ) and Neural Networks.
 
